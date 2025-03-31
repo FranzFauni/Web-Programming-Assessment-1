@@ -1,0 +1,20 @@
+/*To change the body attribute mostly background and keep it cenetered*/
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*to add a broder and change background*/
+.main{
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px;
+    border-style: ridge;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(218, 107, 107);
+}

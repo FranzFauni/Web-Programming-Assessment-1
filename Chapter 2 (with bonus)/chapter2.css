@@ -1,0 +1,46 @@
+body{ /*to change the color of the body*/
+    background-color:rgb(255, 238, 160);
+}
+
+h1{
+    font-family:"Dax Regular";
+    font-size: 120px;
+}
+
+.menu{ /*a class for the nav bar*/
+    background-color: rgb(250, 221, 90);
+    overflow: hidden;
+    font-size: larger;
+    float: center;  
+    color:white;
+    text-align: center;  
+    padding: 15px 17px;  
+    text-decoration: none;  
+}
+
+.menu a:hover{ /*a class to highligh the page tab when mouse hover over it*/
+    background-color:rgb(77, 78, 170);  color: rgb(255, 255, 255);
+    padding:15px;
+    border-radius: 25px 25px 0px 0px;
+    text-decoration: none;
+}
+
+.menu a.active { /*a class to highlight current page the user is seeing*/
+    background-color:rgb(31, 32, 255);  color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius:25px 25px 0px 0px;
+    text-decoration: none;
+    }
+    
+.info{ /*A class to have a consistent look for the content inside of the tab*/
+    font-size: larger;
+    text-align: justify;
+    background-color: rgb(250, 221, 90);
+    border: 5px;
+    border-style: ridge;
+    float: center;
+    margin-left: 270px;
+    margin-right: 270px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
